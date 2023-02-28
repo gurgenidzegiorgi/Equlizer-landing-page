@@ -11,5 +11,5 @@
 
 ## Author
 
-- Website - [Giorgi Gurgenidze](https://www.your-site.com)
-- Github Repo - [Equalizer-landing-page]()
+- Live Website - [Giorgi Gurgenidze](https://gurgenidzegiorgi.github.io/Equlizer-landing-page/)
+- Github Repo - [Equalizer-landing-page](https://github.com/gurgenidzegiorgi/Equlizer-landing-page)
