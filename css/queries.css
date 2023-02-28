@@ -1,0 +1,122 @@
+@media (min-width: 48em) {
+  body {
+    background-image: url("../assets/bg-main-tablet.png");
+  }
+  main {
+    padding: 6.1rem 3.9rem 8.5rem 3.9rem;
+  }
+  .main-img-div {
+    display: block;
+  }
+  .main-img-div svg {
+    position: absolute;
+    right: -10%;
+    top: -5%;
+  }
+
+  .introduction-div {
+    width: 65%;
+    margin-top: 9.5rem;
+  }
+
+  .introduction-div h1 {
+    font-size: 6.4rem;
+    line-height: 6.4rem;
+    letter-spacing: -0.0727273rem;
+  }
+
+  .introduction-div p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+  }
+
+  .main-content-div {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20rem;
+  }
+
+  .main-content-bg {
+    width: 50%;
+  }
+
+  .phone-img {
+    width: 40%;
+    top: 10%;
+    left: 25%;
+  }
+
+  .price-div {
+    padding: 4.9rem;
+    top: 30%;
+    right: 10%;
+    left: 30%;
+  }
+
+  .footer-div {
+    flex-direction: unset;
+    justify-content: space-between;
+  }
+
+  footer {
+    margin-top: 20rem;
+  }
+}
+
+@media (min-width: 90em) {
+  body {
+    background-image: url("../assets/bg-main-desktop.png");
+  }
+
+  main {
+    padding: 6.2rem 16.5rem 9.1rem 16.5rem;
+  }
+
+  br {
+    display: block;
+  }
+
+  .main-img-div svg {
+    right: 0;
+  }
+
+  .introduction-div {
+    width: 75%;
+    margin-top: 12.7rem;
+    margin-bottom: 35%;
+  }
+
+  .main-content-div {
+    padding-bottom: 10%;
+  }
+
+  .phone-img {
+    width: 30%;
+    top: 0%;
+    left: 30%;
+  }
+  .main-content-bg {
+    width: 31%;
+  }
+
+  .price-div {
+    padding: 5.9rem;
+    top: 20%;
+    left: 55%;
+    right: 7%;
+  }
+
+  .footer-div p {
+    width: 40%;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    gap: 13.7rem;
+  }
+
+  footer svg {
+    flex-basis: 20rem;
+  }
+}

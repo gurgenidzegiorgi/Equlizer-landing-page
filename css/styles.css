@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("../assets/bg-main-mobile.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  padding: 4rem 2.4rem 8.15rem 2.4rem;
+}
+.main-img-div {
+  display: none;
+}
+
+br {
+  display: none;
+}
+
+.introduction-div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 6.4rem;
+  margin-bottom: 30rem;
+}
+
+.introduction-div h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  letter-spacing: -0.0454545rem;
+  color: #191826;
+}
+
+.introduction-div p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #191826;
+}
+
+.main-content-div {
+  background: #191826;
+  padding: 0 4.7rem;
+  margin: 0 -2.4rem;
+  border-radius: 1.2rem;
+  position: relative;
+}
+
+.main-content-bg {
+  width: 100%;
+}
+
+.phone-img {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+.price-div {
+  display: flex;
+  flex-direction: column;
+  background: #fa7453;
+  padding: 4.9rem 3.7rem;
+  border-radius: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: 90%;
+}
+
+.price-div h3 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  color: #fcfaf9;
+  margin-bottom: 1.2rem;
+}
+
+.price-div .content-text {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #fcfaf9;
+}
+
+.price-text {
+  margin: 3.5rem 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: -0.02rem;
+  color: #fcfaf9;
+}
+.price-text span {
+  font-weight: 700;
+  font-size: 6.5rem;
+  line-height: 5.2rem;
+}
+
+.ios-link,
+.android-link {
+  padding: 1.5rem 0;
+  background: #fcfaf9;
+  border-radius: 1.2rem;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  text-align: center;
+  letter-spacing: -0.018rem;
+  color: #fcfaf9;
+  transition: all 0.3s ease;
+}
+
+.ios-link {
+  background: #191826;
+  margin-bottom: 1.6rem;
+}
+.ios-link:hover {
+  background: #66e2dc;
+  transition: all 0.3s ease;
+}
+
+.android-link {
+  color: #191826;
+}
+
+.android-link:hover {
+  background: #ffb964;
+  transition: all 0.3s ease;
+}
+
+.ios-link svg,
+.android-link svg {
+  margin-right: 0.5rem;
+}
+
+footer {
+  margin-top: 60rem;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+  margin-top: 3.2rem;
+}
+
+.footer-div p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #191826;
+}
+
+.soc-icon-div {
+  display: flex;
+  gap: 2rem;
+}
+
+.soc-icon-div svg {
+  transition: all 0.3s ease;
+}
+.soc-icon-div svg:hover {
+  fill: #fa7453;
+  transition: all 0.3s ease;
+}
